@@ -1,0 +1,50 @@
+body,html {width: 100%; height: 100%}
+body,html,input{
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+.clearfix {
+  zoom:1; /* for IE6 IE7 */
+}
+body .fn_hide {
+  display:none;
+}
+.fn_left,.fn_right {
+  display:inline;
+}
+.fn_left {
+  float:left;
+}
+.fn_right {
+  float:right;
+}
+.fn_text_overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*!*input:-webkit-autofill {*!*/
+  /*!*-webkit-box-shadow: 0 0 0px 1000px white inset;*!*/
+/*!*}*!*/
+/*input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {*/
+  /*background-color: rgba(250, 255, 189, 0) !important;*/
+  /*background-image: none !important;*/
+  /*color: rgba(0, 0, 0, 0) !important;*/
+/*}*/
+#app > div > div > div.auth > div > div.el-input.el-input--suffix > input{
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 15px;
+  background-color: #283443;
+}
